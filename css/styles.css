@@ -1,0 +1,160 @@
+body{
+  font-family: "Montserrat";
+}
+h1,h2,h3{
+  font-family: "Montserrat-Bold";
+}
+
+h2{
+
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+h3{
+
+  font-size: 2.5rem;
+  font-weight: bolder;
+
+}
+ /* heading */
+ .big-heading{
+   font-family: "Montserrat-Black";
+   font-weight: 900;
+   font-size: 6rem;
+   line-height: 1;
+   margin-bottom: 5%;
+ }
+.container-fluid{
+  padding: 0 0 5% 0;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+.navbar{
+  padding: 0 0;
+}
+.navbar-brand{
+  margin-right: 0;
+  padding: 0 0;
+}
+.navbar-nav{
+  padding: 0 9rem;
+  font-family: "Montserrat-Light";
+  font-size: 1.5rem;
+}
+
+.download-button{
+  margin:5% 2% 0 0;
+}
+.title-img{
+  width: 80%;
+  height: auto;
+  margin-left: 3%;
+}
+.container-first{
+  margin-left: 5%;
+  text-align: center;
+}
+.container-second{
+  padding-left: 0;
+  padding-right: 0;
+  /* margin-left: 3%; */
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+}
+.feature-head{
+  margin-bottom: 5%;
+}
+.workspace{
+  text-align: center;
+  margin-top: 5rem;
+}
+.icon{
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 4px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+.texting{
+  color: #8f8f8f;
+}
+#testimonials{
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+}
+.carousel-inner{
+  padding: 7% 15%;
+}
+.dog-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 5% 5% 0 0;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+.press-img{
+  width: 15%;
+  margin: 2% 2% 5%;
+}
+#pricing{
+  text-align: center;
+}
+.pricing-text{
+  margin-top: 2%;
+  font-family: "Montserrat-Black";
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.pricing-card{
+  padding: 2% 3%;
+}
+.pricing-btn{
+  width: 100%;
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 3%;
+}
+.cta-button{
+  margin: 3% 1% 1% 2%;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 2% 5% 2%;
+}
+.footer-element{
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+.footer-text{
+  color: #8f8f8f;
+}
+@media only screen and (max-width:1015px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    width: auto;
+    margin-top: 3rem;
+  }
+}
